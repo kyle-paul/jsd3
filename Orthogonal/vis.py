@@ -4,17 +4,7 @@ from matplotlib.animation import FuncAnimation
 from typing import List
 
 """
-input:
-    v1 (np.array) : vector n-dim in standard basis
-    U: (np.array) : orthogornal matrix 
-    
-output: 
-    v2 (np.array):  vector n-dim in U basis
-    
-Math intuition: Orthogornal matrix U rotate v1 into v2
-
-Options: 
-    Define theta --> Find v2 and matrix U
+Tinkering with different matrix U to perform different effect (e.g, rototation, flip, etc animation)
 """
 
 class Input:
